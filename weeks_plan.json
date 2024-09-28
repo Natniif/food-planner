@@ -1,0 +1,43 @@
+{
+    "monday": {
+        "breakfast": "example.json",
+        "lunch": "example.json",
+        "dinner": "example.json"
+    },
+
+    "tuesday": {
+        "breakfast": "example.json",
+        "lunch": "example.json",
+        "dinner": "example.json"
+    },
+
+    "wednesday": {
+        "breakfast": "example.json",
+        "lunch": "example.json",
+        "dinner": "example.json"
+    },
+
+    "thursday": {
+        "breakfast": "example.json",
+        "lunch": "example.json",
+        "dinner": "example.json"
+    },
+
+    "friday": {
+        "breakfast": "example.json",
+        "lunch": "example.json",
+        "dinner": "example.json"
+    },
+
+    "saturday": {
+        "breakfast": "example.json",
+        "lunch": "example.json",
+        "dinner": "example.json"
+    },
+
+    "sunday": {
+        "breakfast": "example.json",
+        "lunch": "example.json",
+        "dinner": "example.json"
+    }
+}
