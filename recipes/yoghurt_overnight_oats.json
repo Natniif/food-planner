@@ -1,0 +1,16 @@
+{
+    "macros": {
+        "kcal": 1052,
+        "protein[g]": 45,
+        "carbs[g]": 174.5,
+        "fat[g]": 18
+    },
+
+    "ingredients": {
+        "greek_yoghurt[g]": 200,
+        "honey[tbs]": 4,
+        "vanilla_extract[tsp]": 1,
+        "milk[ml]": 250,
+        "oats[g]": 135
+    }
+}

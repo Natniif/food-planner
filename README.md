@@ -3,6 +3,15 @@
 This is a small program used by me to help plan my meals :)
 
 Use the sample json file to help you plan your meals for the week
+
+### Setup
+
+```
+source venv/bin/activate
+```
+
+### Usage
+
 If you run the following program
 
 ```

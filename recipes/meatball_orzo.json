@@ -1,0 +1,20 @@
+{
+    "macros": {
+        "kcal": 1020,
+        "fat[g]": 20,
+        "carbs[g]": 100,
+        "protein[g]": 30
+    },
+
+    "ingredients": {
+        "ground_meat[g]": 750,
+        "orzo[g]": 375,
+        "lemon": 0.5,
+        "frozen_peas[g]": 100,
+        "parmesan_cheese[g]": 25,
+        "creme_fraiche[ml]": 150,
+        "chicken_stock": 1,
+        "garlic_cloves": 2,
+        "egg": 1
+    }
+}

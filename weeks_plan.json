@@ -1,42 +1,42 @@
 {
     "monday": {
-        "breakfast": "example.json",
+        "breakfast": "yoghurt_overnight_oats.json",
         "lunch": "example.json",
         "dinner": "example.json"
     },
 
     "tuesday": {
-        "breakfast": "example.json",
+        "breakfast": "yoghurt_overnight_oats.json",
         "lunch": "example.json",
         "dinner": "example.json"
     },
 
     "wednesday": {
-        "breakfast": "example.json",
+        "breakfast": "yoghurt_overnight_oats.json",
         "lunch": "example.json",
         "dinner": "example.json"
     },
 
     "thursday": {
-        "breakfast": "example.json",
+        "breakfast": "yoghurt_overnight_oats.json",
         "lunch": "example.json",
         "dinner": "example.json"
     },
 
     "friday": {
-        "breakfast": "example.json",
+        "breakfast": "yoghurt_overnight_oats.json",
         "lunch": "example.json",
         "dinner": "example.json"
     },
 
     "saturday": {
-        "breakfast": "example.json",
+        "breakfast": "yoghurt_overnight_oats.json",
         "lunch": "example.json",
         "dinner": "example.json"
     },
 
     "sunday": {
-        "breakfast": "example.json",
+        "breakfast": "yoghurt_overnight_oats.json",
         "lunch": "example.json",
         "dinner": "example.json"
     }
