@@ -1,8 +1,8 @@
 {
     "macros": {
         "kcal": 1052,
-        "protein[g]": 45,
         "carbs[g]": 174.5,
+        "protein[g]": 45,
         "fat[g]": 18
     },
 

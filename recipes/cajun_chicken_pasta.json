@@ -1,0 +1,17 @@
+{
+    "macros": {
+        "kcal": 768,
+        "fat[g]": 27,
+        "carbs[g]": 85,
+        "protein[g]": 47
+    },
+
+    "ingredients": {
+        "pasta[g]": 100,
+        "chicken[g]": 150,
+        "chopped_tomateoes[g]": 150,
+        "creme_freche[ml]": 75,
+        "stock_cube": 0.25,
+        "carlic[cloves]": 0.5
+    }
+}

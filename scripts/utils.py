@@ -3,11 +3,6 @@ import sys
 import json 
 from typing import Dict, List, Any
 
-from rich import print
-from rich.console import Console
-from rich.pretty import Pretty
-
-
 def schedule_json_plan_to_array(week_data: str) -> List[str]:
 	"""
 	Extracts all .json files from weekly plan and flattens into array
@@ -128,12 +123,11 @@ def json_to_dict(*json_files) -> Dict[str, Any]:
 	return ret
 
 def print_dict_lines(data: dict, indent: int = 0) -> None:
-	console = Console()
 	for key, value in data.items():
-		console.print(' ' * indent + f"[green]{key}:[/green] ", end="")
+		print(' ' * indent + f"{key}: ", end="")
 		if isinstance(value, dict):
 			print()  # Print a new line before printing the nested dictionary
 			print_dict_lines(value, indent + 4)  # Increase indent for nested dict
 		else:
-			console.print(value)  # Print the value on the same line
+			print(value)  # Print the value on the same line
 

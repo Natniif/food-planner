@@ -1,3 +1,7 @@
 {
-    "ingredients": {}
+    "ingredients": {
+      "chia_seeds[container_full]": 100,  
+      "nuts[container_full]": 100,  
+      "sunflower_seeds[container_full]": 100
+    }
 }

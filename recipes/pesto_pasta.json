@@ -1,0 +1,14 @@
+{
+    "macros": {
+        "kcal": 700,
+        "carbs[g]": 63,
+        "protein[g]": 20,
+        "fat[g]": 36
+    },
+
+    "ingredients": {
+        "pasta_uncooked[g]": 100,
+        "pesto[tbs]": 2, 
+        "cheddar_cheese[g]": 30
+    }
+}

@@ -1,14 +1,11 @@
 {
     "macros": {
-        "kcal": 1020,
-        "fat[g]": 20,
-        "carbs[g]": 100,
-        "protein[g]": 30
+        "kcal": 0,
+        "fat[g]": 0,
+        "carbs[g]": 0,
+        "protein[g]": 0
     },
 
     "ingredients": {
-        "rice[g]": 200,
-        "chicken[g]": 200,
-        "pasta[g]": 500
     }
 }
