@@ -6,9 +6,7 @@ from typing import Dict, List, Any
 def schedule_json_plan_to_array(week_data: str) -> List[str]:
 	"""
 	Extracts all .json files from weekly plan and flattens into array
-
 	"""
-
 	try:
 		with open(week_data, "r") as file: 
 			schedule = json.load(file)
@@ -21,8 +19,6 @@ def schedule_json_plan_to_array(week_data: str) -> List[str]:
 		for meal, file in meals.items(): 
 			if file.endswith(".json"): 
 				recipes.append(file)
-
-	# assert len(recipes) == 21
 
 	return recipes
 
@@ -81,7 +77,6 @@ def inventory_required(inventory: Dict[str, Dict[str, int]], recipe: Dict[str, D
 
     for ingredient, required_amount in recipe['ingredients'].items():
         available_amount = inventory['ingredients'].get(ingredient, 0)
-        
         if required_amount > available_amount:
             required[ingredient] = required_amount - available_amount
 
@@ -101,9 +96,7 @@ def json_to_dict(*json_files) -> Dict[str, Any]:
 	ret = {}
 
 	for i, json_file in enumerate(json_files):
-
 		file_path = os.path.join(recipes_dir, json_file) if json_file != "inventory.json" else "inventory.json"
-
 		if not os.path.exists(file_path):
 			raise FileNotFoundError(f"Ths file {file_path} does not exist")
 		try:
@@ -130,4 +123,3 @@ def print_dict_lines(data: dict, indent: int = 0) -> None:
 			print_dict_lines(value, indent + 4)  # Increase indent for nested dict
 		else:
 			print(value)  # Print the value on the same line
-
